@@ -1,0 +1,2828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!-- Swiper Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>صفحه اصلی</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__countainer container">
+          <div class="header__contact">
+            <span>۰۹۳۰۶۹۳۱۴۰۶</span>
+
+            <span>لوکیشن ما</span>
+          </div>
+
+          <p class="header__alert-news">تجربه یک خرید فوق العاده</p>
+
+          <a href="login.html" class="header__top-action"> ورود / ثبت نام </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="./media/logo.svg" alt="" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="./media/logo.svg" alt="" />
+            </a>
+
+            <div class="nav__close" id="nav__close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">خانه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link">فروشگاه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">مقایسه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login.html" class="nav__link">حساب کاربری</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input type="text" placeholder="جستجو کردن" class="form__input" />
+
+            <button class="search__btn">
+              <img src="./media/search.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="./media/icon-heart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="./media/icon-cart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+
+          <div class="header__action-btn nav__toggle" id="nav__toggle">
+            <img src="./media/menu-burger.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Home -->
+      <section class="home section--lg">
+        <div class="home__countainer container grid">
+          <div class="home__content">
+            <span class="home__subtitle">تبلیغات داغ</span>
+            <h1 class="home__title">
+              مد روز
+              <br />
+              <span>کالکشن عالی و خفن</span>
+            </h1>
+            <p class="home__description">با کوپن ها بیشتر پس انداز کنید</p>
+            <a href="shop.html" class="btn">همین الان خرید کنید</a>
+          </div>
+          <img src="./media/home-img.jpeg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section class="categories container section">
+        <div class="section__wrapper">
+          <h3 class="section__title">
+            <span>محبوب ترین</span>
+            دسته بندی ها
+          </h3>
+          <div class="btn__wrapper">
+            <button class="prev__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                ></path>
+              </svg>
+            </button>
+            <button class="next__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="categories__container swiper">
+          <div class="swiper-wrapper">
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-1.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">تی شرت</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-2.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">کیف</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-3.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">صندل</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-4.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">اسکارف</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-5.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">کفش</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-6.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">روبالشتی</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-7.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">لباس سرهمی</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img src="./media/category-8.jpg" alt="" class="category__img" />
+
+              <h3 class="category__title">کلاه</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section class="products section container">
+        <div class="tab__btns">
+          <span class="tab__btn active-tab" data-target="#featured">ویژه</span>
+          <span class="tab__btn" data-target="#popular">محبوب</span>
+          <span class="tab__btn" data-target="#new-added">جدید</span>
+        </div>
+
+        <div class="tab__items">
+          <div class="tab__item active-tab" content id="featured">
+            <div class="products__container grid">
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-1-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-1-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن ب علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-2-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-2-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی "
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-3-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-3-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">کفش</span>
+                  <a href="details.html">
+                    <h3 class="product__title">کفش های متنوع</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-4-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-4-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">شلوار های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-5-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-5-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">-30%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">اسکارف های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-6-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-6-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">-22%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-7-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-7-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-8-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-8-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab__item" content id="popular">
+            <div class="products__container grid">
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-9-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-9-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-2-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-2-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-10-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-10-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">کفش</span>
+                  <a href="details.html">
+                    <h3 class="product__title">صندل های متنوع</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-4-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-4-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">شلوار های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-5-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-5-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-pink">-30%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">اسکارف های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-11-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-11-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مشاهده ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-pink">-22%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">شلوار های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-7-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-7-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-8-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-8-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab__item" content id="new-added">
+            <div class="products__container grid">
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-1-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-1-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-12-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-12-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-3-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-3-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">کفش</span>
+                  <a href="details.html">
+                    <h3 class="product__title">کفش های متنوع</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-13-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-13-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">کیف</span>
+                  <a href="details.html">
+                    <h3 class="product__title">کیف های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-10-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-10-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-30%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">صندل</span>
+                  <a href="details.html">
+                    <h3 class="product__title">صندل های متنوع</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-6-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-6-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه ">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-22%</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-9-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-9-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">جدید</div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="./media/product-8-1.jpg"
+                      alt=""
+                      class="product__img default"
+                    />
+
+                    <img
+                      src="./media/product-8-2.jpg"
+                      alt=""
+                      class="product__img hover"
+                    />
+                  </a>
+
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="مشاهده">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="افزودن به علاقه مندی"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action__btn" aria-label="مقایسه">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">پوشاک</span>
+                  <a href="details.html">
+                    <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product__price flex">
+                    <span class="new__price">۲۳۸.۰۰۰</span>
+                    <span class="old__price">۲۴۵.۰۰۰</span>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="action__btn cart__btn"
+                    aria-label="افزودن به سبد خرید"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deals -->
+      <section class="deals section">
+        <div class="deals__container container grid">
+          <div class="deals__item">
+            <div class="deals__group">
+              <h3 class="deals__brand">خرید امروز</h3>
+              <span class="deals__category">تعداد محدود</span>
+            </div>
+
+            <h4 class="deals__title">
+              کالکشن تابستانی جدید<br />
+              طراحی مدرن
+            </h4>
+
+            <div class="deals__price flex">
+              <span class="new__price">۱۳۹.۰۰۰</span>
+              <span class="old__price">۱۶۰.۰۰۰</span>
+            </div>
+
+            <div class="deals__group">
+              <p class="deals__countdown-text">بشتابید! حراج آخر در</p>
+
+              <div class="countdown">
+                <div class="countdown__amount">
+                  <p class="countdown__period">۰۳</p>
+                  <span class="unit">روزها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۲۱</p>
+                  <span class="unit">ساعت ها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۴۷</p>
+                  <span class="unit">دقیقه ها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۱۵</p>
+                  <span class="unit">ثانیه ها</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="deals__btn">
+              <a href="details.html" class="btn btn--md">همین الان خرید کنید</a>
+            </div>
+          </div>
+
+          <div class="deals__item">
+            <div class="deals__group">
+              <h3 class="deals__brand">پوشاک زنانه</h3>
+              <span class="deals__category">تعداد محدود</span>
+            </div>
+
+            <h4 class="deals__title">
+              پوشاک جدید<br />را همین الان امتحان کنید
+            </h4>
+
+            <div class="deals__price flex">
+              <span class="new__price">۱۳۹.۰۰۰</span>
+              <span class="old__price">۱۶۰.۰۰۰</span>
+            </div>
+
+            <div class="deals__group">
+              <p class="deals__countdown-text">بشتابید! حراج آخر در</p>
+
+              <div class="countdown">
+                <div class="countdown__amount">
+                  <p class="countdown__period">۰۳</p>
+                  <span class="unit">روزها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۲۱</p>
+                  <span class="unit">ساعت ها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۴۷</p>
+                  <span class="unit">دقیقه ها</span>
+                </div>
+                <div class="countdown__amount">
+                  <p class="countdown__period">۱۵</p>
+                  <span class="unit">ثانیه ها</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="deals__btn">
+              <a href="details.html" class="btn btn--md">همین الان خرید کنید</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Arrivals -->
+      <section class="new__arrivals container section">
+        <div class="section__wrapper">
+          <h3 class="section__title">
+            <span>محبوب ترین</span>
+            دسته بندی ها
+          </h3>
+          <div class="btn__wrapper">
+            <button class="prev__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                ></path>
+              </svg>
+            </button>
+            <button class="next__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="new__container swiper">
+          <div class="swiper-wrapper">
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-1-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-1-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">جدید</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-2-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-2-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">جدید</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-3-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-3-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">جدید</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">کفش</span>
+                <a href="details.html">
+                  <h3 class="product__title">کفش های متنوع و رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-4-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-4-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">جدید</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">شلوار های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-5-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-5-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-orange">-30%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">اسکارف های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-6-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-6-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-orange">-22%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-7-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-7-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">جدید</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item swiper-slide">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img
+                    src="./media/product-8-1.jpg"
+                    alt=""
+                    class="product__img default"
+                  />
+
+                  <img
+                    src="./media/product-8-2.jpg"
+                    alt=""
+                    class="product__img hover"
+                  />
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="مشاهده">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="action__btn"
+                    aria-label="افزودن به علاقه مندی"
+                  >
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="مقایسه ">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">پوشاک</span>
+                <a href="details.html">
+                  <h3 class="product__title">پیراهن های طرح دار رنگارنگ</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="action__btn cart__btn"
+                  aria-label="افزودن به سبد خرید"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOWCASE -->
+      <section class="showcase section">
+        <div class="showcase__container container grid">
+          <div class="showcase__wrapper">
+            <h3 class="section__title">داغ ترین شارژ شده ها</h3>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-1.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-2.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-3.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__wrapper">
+            <h3 class="section__title">خرید و فروش</h3>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-4.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-5.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-6.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__wrapper">
+            <h3 class="section__title">پرفروش ترین</h3>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-7.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-8.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-9.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__wrapper">
+            <h3 class="section__title">مد روز</h3>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-1.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-2.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price">۲۴۵.۰۰۰</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase__item">
+              <a href="" class="showcase__img-box">
+                <img
+                  src="./media/showcase-img-3.jpg"
+                  alt=""
+                  class="showcase__img"
+                />
+              </a>
+
+              <div class="showcase__content">
+                <a href="details.html">
+                  <h4 class="showcase__title">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  </h4>
+                </a>
+
+                <div class="showcase__price flex">
+                  <span class="new__price">۲۳۸.۰۰۰</span>
+                  <span class="old__price"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section class="newsletter section home__newsletter">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            در خبرنامه ثبت نام کنید
+            <img src="./media/icon-email.svg" alt="" class="newsletter__icon" />
+          </h3>
+
+          <p class="newsletter__description">
+            و ۲۵ تومان تخفیف برای خرید اول دریافت کنید
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="لطفا ایمیل خود را وارد کنید"
+              class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">عضویت</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="./media/logo.svg" alt="" class="footer__logo-img" />
+          </a>
+
+          <h4 class="footer__subtitle">اطلاعات</h4>
+
+          <p class="footer__description">
+            <span>آدرس:</span>بازار بزرگ تهران؛ بازار رضا
+          </p>
+
+          <p class="footer__description">
+            <span>شماره تلفن:</span> 09306931406
+          </p>
+
+          <p class="footer__description">
+            <span>ساعت کار:</span>شنبه تا چهارشنبه از ساعت 10 تا 17
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">
+              در شبکه های اجتماعی ما را دنبال کنید
+            </h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img
+                  src="./media/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">لینک های مفید</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">شرایط و ضوابط</a></li>
+            <li><a href="" class="footer__link">تماس با ما</a></li>
+            <li><a href="" class="footer__link">درباره ما</a></li>
+            <li><a href="" class="footer__link">پشتیبانی</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">دسترسی سریع</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">ورود/عضویت</a></li>
+            <li><a href="" class="footer__link">لیست علاقه مندی</a></li>
+            <li><a href="" class="footer__link">پیگیری سفارش</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main Js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

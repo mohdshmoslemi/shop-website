@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!-- Swiper Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>حساب کاربری</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__countainer container">
+          <div class="header__contact">
+            <span>۰۹۳۰۶۹۳۱۴۰۶</span>
+
+            <span>لوکیشن ما</span>
+          </div>
+
+          <p class="header__alert-news">تجربه یک خرید فوق العاده</p>
+
+          <a href="login.html" class="header__top-action">
+            ورود / ثبت نام
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="./media/logo.svg" alt="" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">خانه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link">فروشگاه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">مقایسه</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login.html" class="nav__link active-link"
+                >حساب کاربری</a
+              >
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input type="text" placeholder="جستجو کردن" class="form__input" />
+
+            <button class="search__btn">
+              <img src="./media/search.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="./media/icon-heart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="./media/icon-cart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Breadcrumb -->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">خانه</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">ورود/عضویت</span></li>
+        </ul>
+      </section>
+
+      <!-- Login -->
+      <section class="login-register section--lg">
+        <div class="login-register__container container grid">
+          <div class="register">
+            <h3 class="section__title">عضویت</h3>
+
+            <form action="" class="form grid">
+              <input type="text" placeholder="نام کاربری" class="form__input" />
+
+              <input type="email" placeholder="ایمیل شما" class="form__input" />
+
+              <input
+                type="password"
+                placeholder="رمز شما"
+                class="form__input"
+              />
+
+              <input
+                type="password"
+                placeholder="تایید رمز"
+                class="form__input"
+              />
+
+              <div class="form__btn">
+                <button class="btn">عضویت</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="login">
+            <h3 class="section__title">ورود</h3>
+
+            <form action="" class="form grid">
+              <input type="email" placeholder="ایمیل شما" class="form__input" />
+
+              <input
+                type="password"
+                placeholder="رمز شما"
+                class="form__input"
+              />
+
+              <div class="form__btn">
+                <button class="btn">ورود</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            در خبرنامه ثبت نام کنید
+            <img src="./media/icon-email.svg" alt="" class="newsletter__icon" />
+          </h3>
+
+          <p class="newsletter__description">
+            و ۲۵ تومان تخفیف برای خرید اول دریافت کنید
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="لطفا ایمیل خود را وارد کنید"
+              class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">عضویت</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="./media/logo.svg" alt="" class="footer__logo-img" />
+          </a>
+
+          <h4 class="footer__subtitle">اطلاعات</h4>
+
+          <p class="footer__description">
+            <span>آدرس:</span>بازار بزرگ تهران؛ بازار رضا
+          </p>
+
+          <p class="footer__description">
+            <span>شماره تلفن:</span> 09306931406
+          </p>
+
+          <p class="footer__description">
+            <span>ساعت کار:</span>شنبه تا چهارشنبه از ساعت 10 تا 17
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">
+              در شبکه های اجتماعی ما را دنبال کنید
+            </h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img
+                  src="./media/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./media/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">لینک های مفید</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">شرایط و ضوابط</a></li>
+            <li><a href="" class="footer__link">تماس با ما</a></li>
+            <li><a href="" class="footer__link">درباره ما</a></li>
+            <li><a href="" class="footer__link">پشتیبانی</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">دسترسی سریع</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">ورود/عضویت</a></li>
+            <li><a href="" class="footer__link">لیست علاقه مندی</a></li>
+            <li><a href="" class="footer__link">پیگیری سفارش</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main Js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
